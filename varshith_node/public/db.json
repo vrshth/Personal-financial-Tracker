@@ -1,0 +1,52 @@
+{
+    "finance":[
+        {
+          "accountId":1,
+          "accountName": "Checking",
+          "transactionType": "Income",
+          "amount": 1500.00,
+          "category": "Salary",
+          "transactionDate": "2024-11-01"
+        },
+        {
+           "accountId":2,
+          "accountName": "Credit",
+          "transactionType": "Expense",
+          "amount": 200.00,
+          "category": "Groceries",
+          "transactionDate": "2024-11-15"
+        },
+        {
+          "accountId":3,
+          "accountName": "Checking",
+          "transactionType": "Expense",
+          "amount": 80.50,
+          "category": "Transportation",
+          "transactionDate": "2024-11-20"
+        },
+        {
+          "accountId":4,
+          "accountName": "Credit",
+          "transactionType": "Income",
+          "amount": 250.00,
+          "category": "Freelance",
+          "transactionDate": "2024-11-18"
+        },
+        {
+          "accountId":5,
+          "accountName": "Checking",
+          "transactionType": "Expense",
+          "amount": 120.00,
+          "category": "Dining Out",
+          "transactionDate": "2024-11-25"
+        },
+        {
+          "accountId":6,
+          "accountName": "Credit",
+          "transactionType": "Expense",
+          "amount": 50.00,
+          "category": "Entertainment",
+          "transactionDate": "2024-11-26"
+        }
+      ]    
+}

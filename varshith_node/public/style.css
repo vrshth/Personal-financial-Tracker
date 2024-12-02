@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #35424a;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff6f61;
+}
+
+.section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-height: 150px;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 10px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.certifications,
+.projects {
+    display: block;
+}
+
+.item {
+    display: block;
+    margin: 15px 0;
+}
+
+.item img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.inline-skills {
+    display: block;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.skills-container .item {
+    display: inline-block;
+    text-align: center;
+}
+
+#about {
+    background-color: #e8c3e2;
+}
+
+.certifications {
+    background-color: #d5e6d6;
+}
+
+.projects {
+    background-color: #cce5ff;
+}
+
+#skills {
+    background-color: #ffe5d1;
+}
+
+#education {
+    background-color: #d1e7dd;
+}
+
+#experience {
+    background-color: #f8d7da;
+}
+
+.experience-gap {
+    height: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-line {
+    border: none;
+    height: 5px;
+    background-color: #35424a;
+    margin: 0;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #35424a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    display: block;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+}
